@@ -162,12 +162,12 @@ python -m nvidia_mcp.server
 
 ### For Cursor
 
-**Configuration file location (Windows):**
-- `%APPDATA%\Cursor\User\globalStorage\saoudrizwan.claude-dev\settings\cline_mcp_settings.json`
-- Or workspace: `.cursor/mcp.json`
+**Configuration file location:**
+- **Workspace configuration** (recommended): `.cursor/mcp.json` in your project root
+- **User settings** (Windows): `%APPDATA%\Cursor\User\settings.json` (add MCP servers to the `mcpServers` section)
 
 **Setup Steps:**
-1. Create or edit the MCP settings file at the location above
+1. Create `.cursor/mcp.json` in your project root (or edit your user settings)
 2. Add the server configuration with the correct `cwd` path
 3. Restart Cursor
 
