@@ -1,0 +1,12 @@
+# MCP Server dependencies
+mcp>=1.0.0
+
+# Data analysis dependencies
+yfinance
+pandas
+numpy
+scipy>=1.10.0
+
+# Standard library dependencies (usually included, but listed for clarity)
+# json, datetime, sys, os are part of Python standard library
+

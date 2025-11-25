@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "nvidia-supply-chain": {
+      "command": "python",
+      "args": [
+        "C:\\DATA\\DEV\\AGENTS\\FINANCE\\nvidia-supply-chain-analysis\\nvidia_mcp\\server.py"
+      ],
+      "cwd": "C:\\DATA\\DEV\\AGENTS\\FINANCE\\nvidia-supply-chain-analysis"
+    }
+  }
+}
+

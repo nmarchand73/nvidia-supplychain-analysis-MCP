@@ -1,0 +1,24 @@
+[project]
+name = "nvidia-supply-chain-analysis-mcp"
+version = "1.0.0"
+description = "MCP Server for Nvidia Supply Chain Analysis - Comprehensive toolkit for analyzing and anticipating Nvidia and semiconductor supply chain stock movements"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "mcp>=1.0.0",
+    "yfinance>=0.2.0",
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "scipy>=1.10.0",
+]
+
+[project.scripts]
+nvidia-supply-chain-mcp = "nvidia_mcp.server:app"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["nvidia_mcp", "nvidia_mcp.internal"]
+
